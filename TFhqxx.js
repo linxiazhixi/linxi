@@ -1,5 +1,5 @@
 [Script]
-TF信息获取 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$,requires-body=0,script-path=https://raw.githubusercontent.com/linxiazhixi/surge/main/TF获取信息.js
+TF信息获取 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$,requires-body=0,script-path=https://raw.githubusercontent.com/linxiazhixi/surge/main/TFhqxx.js
 [mitm]
 hostname = %APPEND% testflight.apple.com
 
