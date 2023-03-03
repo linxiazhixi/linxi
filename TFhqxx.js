@@ -1,6 +1,6 @@
 [Script]
 TF信息获取 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$,requires-body=0,script-path=https://raw.githubusercontent.com/linxiazhixi/surge/main/TFhqxx.js
-[mitm]
+[MITM]
 hostname = %APPEND% testflight.apple.com
 
 const reg1 = /^https://testflight.apple.com/join//i;
